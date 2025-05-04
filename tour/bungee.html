@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure Blog</title>
+  <link rel="stylesheet" href="css/style1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="bungee.html" class="logo">Adventure Blog</a>
+        <nav>
+          <ul>
+            <li><a href="bungee.html" class="active">Home</a></li>
+            <li><a href="#" onclick="filterByCategory('adventure')">Adventure</a></li>
+            <li><a href="#" onclick="filterByCategory('guides')">Guides</a></li>
+            <li><a href="#" onclick="filterByCategory('history')">History</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero section -->
+    <section id="featured-post" class="hero">
+      <!-- Will be populated by JavaScript -->
+    </section>
+
+    <!-- Category filter section -->
+    <section id="category-title" class="category-title hidden">
+      <h1>Category: <span id="current-category"></span></h1>
+      <a href="index.html" class="btn btn-back">Back to Home</a>
+    </section>
+
+    <!-- Latest Posts section -->
+    <section class="latest-posts">
+      <div class="section-header">
+        <h2>Latest Articles</h2>
+        <div class="category-filters">
+          <button onclick="filterByCategory('adventure')" class="btn">Adventure</button>
+          <button onclick="filterByCategory('guides')" class="btn">Guides</button>
+          <button onclick="filterByCategory('history')" class="btn">History</button>
+        </div>
+      </div>
+      <div id="posts-grid" class="posts-grid">
+        <!-- Will be populated by JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Single Post View (hidden by default) -->
+  <div id="single-post-view" class="hidden">
+    <div class="container">
+      <a href="index.html" class="btn btn-back">Back to Home</a>
+      <article id="post-content">
+        <!-- Will be populated by JavaScript -->
+      </article>
+      
+      <div class="post-comments">
+        <h3>Comments (<span id="comment-count">0</span>)</h3>
+        <div id="comments-list">
+          <!-- Will be populated by JavaScript -->
+        </div>
+        
+        <div class="comment-form">
+          <h3>Leave a Comment</h3>
+          <form id="comment-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="comment">Comment</label>
+              <textarea id="comment" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Post Comment</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Adventure Blog</h3>
+          <p>Exploring the world's most thrilling experiences and destinations.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#" onclick="filterByCategory('adventure')">Adventure</a></li>
+            <li><a href="#" onclick="filterByCategory('guides')">Guides</a></li>
+            <li><a href="#" onclick="filterByCategory('history')">History</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Adventure Blog. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script1.js"></script>
+</body>
+</html>
