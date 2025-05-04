@@ -469,7 +469,7 @@
   }
   
   .footer-col ul li a {
-    color: var(--text-secondary);
+    color: var;
   }
   
   .footer-col ul li a:hover {
