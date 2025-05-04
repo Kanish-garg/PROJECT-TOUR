@@ -34,13 +34,13 @@
   }
   
   a {
-    color: var(--primary);
+    color: var;
     text-decoration: none;
     transition: var(--transition);
   }
   
   a:hover {
-    color: var(--primary-dark);
+    color: var;
   }
   
   img {
