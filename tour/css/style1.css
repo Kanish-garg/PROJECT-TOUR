@@ -128,7 +128,7 @@
   /* Hero section */
   .hero {
     background: linear-gradient(to right, rgba(84, 101, 255, 0.1), rgba(255, 158, 42, 0.1));
-    border-radius: var(--radius);
+    border-radius: var;
     padding: 3rem 2rem;
     margin: 2rem 0;
   }
