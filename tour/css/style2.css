@@ -34,7 +34,7 @@
   }
   
   a {
-    color: var(--primary);
+    color: var;
     text-decoration: none;
     transition: var(--transition);
   }
