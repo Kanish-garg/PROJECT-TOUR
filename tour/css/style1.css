@@ -73,7 +73,7 @@
   
   .btn:hover {
     background-color: var(--primary-dark);
-    color: white;
+    color: black;
   }
   
   .btn-back {
