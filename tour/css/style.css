@@ -54,7 +54,7 @@ section {
 }
 .header.active {
   background: #fff;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 .header .logo {
   margin-right: auto;
@@ -69,7 +69,7 @@ section {
   left: 50%;
   width: 100%;
   max-width: 550px;
-  padding: 30px;
+  padding: 40px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
