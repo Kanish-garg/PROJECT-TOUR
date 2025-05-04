@@ -36,7 +36,7 @@
   a {
     color: var;
     text-decoration: none;
-    transition: var(--transition);
+    transition: var;
   }
   
   a:hover {
