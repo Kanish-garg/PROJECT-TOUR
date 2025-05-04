@@ -40,7 +40,7 @@
   }
   
   a:hover {
-    color: var(--primary-dark);
+    color: var;
   }
   
   img {
