@@ -3,7 +3,7 @@
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 5;
   box-sizing: border-box;
   outline: none;
   border: none;
@@ -75,7 +75,7 @@ section {
 }
 
 .wrapper1 .title1 h1 {
-  color: red;
+  color: wine red;
   text-align: center;
   margin-bottom: 25px;
   font-size: 3.5rem;
@@ -113,7 +113,7 @@ section {
 }
 
 .msg textarea {
-  height: 189px;
+  height: 190px;
 }
 .msg .btn1 {
   margin-top: 1rem;
@@ -185,7 +185,7 @@ i {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0.1;
   background: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
