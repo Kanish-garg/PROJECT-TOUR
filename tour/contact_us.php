@@ -24,6 +24,7 @@
         echo "error: ",mysqli_error($conn);
         exit;
     }
+// noo use
     echo "We will contact you soon";
     mysqli_close($conn);
  
