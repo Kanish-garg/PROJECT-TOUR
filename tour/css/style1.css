@@ -393,7 +393,7 @@
   }
   
   .comment-text {
-    color: var(--text-secondary);
+    color: var;
   }
   
   /* Comment form */
