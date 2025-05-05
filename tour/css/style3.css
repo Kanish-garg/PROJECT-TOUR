@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: var(--primary-dark);
+  color: var;
 }
 
 img {
@@ -64,11 +64,11 @@ img {
   background-color: var(--primary);
   color: white;
   padding: 0.5rem 1rem;
-  border-radius: var(--radius);
+  border-radius: var;
   font-weight: 500;
   cursor: pointer;
   border: none;
-  transition: var(--transition);
+  transition: var;
 }
 
 .btn:hover {
@@ -160,7 +160,7 @@ nav a:hover, nav a.active {
 
 .hero-image img {
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  box-shadow: var;
 }
 
 /* Category title */
