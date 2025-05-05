@@ -68,7 +68,7 @@ img {
   font-weight: 500;
   cursor: pointer;
   border: none;
-  transition: var(--transition);
+  transition: var;
 }
 
 .btn:hover {
